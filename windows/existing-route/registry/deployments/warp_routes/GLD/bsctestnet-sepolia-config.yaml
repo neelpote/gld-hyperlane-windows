@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xf6285188b3EEb57738f80A4ECeF4bABD5DeDd6b6"
+    chainName: bsctestnet
+    collateralAddressOrDenom: "0x8A0D43b12185587e0561691664728bC3030176A9"
+    connections:
+      - token: ethereum|sepolia|0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8
+    decimals: 18
+    name: Gold
+    standard: EvmHypCollateral
+    symbol: GLD
+    tokenType: collateral
+  - addressOrDenom: "0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8"
+    chainName: sepolia
+    connections:
+      - token: ethereum|bsctestnet|0xf6285188b3EEb57738f80A4ECeF4bABD5DeDd6b6
+    decimals: 18
+    name: Gold
+    standard: EvmHypSynthetic
+    symbol: GLD
+    tokenType: synthetic

@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-10-29T09:39:40.387Z",
+  "backingInvariantVerified": true,
+  "chains": [
+    {
+      "chain": "bsctestnet",
+      "chainId": 97,
+      "router": "0xf6285188b3EEb57738f80A4ECeF4bABD5DeDd6b6",
+      "token": "0x8A0D43b12185587e0561691664728bC3030176A9",
+      "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+      "ownerGLD": "1000000.0",
+      "totalSupplyGLD": "1000000.0",
+      "ownerNativeBalance": "0.009173961779999999",
+      "remoteRouterVerified": true,
+      "lockedGLD": "0.0"
+    },
+    {
+      "chain": "sepolia",
+      "chainId": 11155111,
+      "router": "0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8",
+      "token": "0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8",
+      "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+      "ownerGLD": "0.0",
+      "totalSupplyGLD": "0.0",
+      "ownerNativeBalance": "0.049670048679461574",
+      "remoteRouterVerified": true
+    }
+  ]
+}

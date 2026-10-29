@@ -1,0 +1,37 @@
+{
+  "blockExplorers": [
+    {
+      "apiUrl": "https://api-sepolia.etherscan.io/api",
+      "family": "etherscan",
+      "name": "Etherscan",
+      "url": "https://sepolia.etherscan.io"
+    }
+  ],
+  "blocks": {
+    "confirmations": 1,
+    "estimateBlockTime": 13,
+    "reorgPeriod": 2
+  },
+  "chainId": 11155111,
+  "deployer": {
+    "name": "Abacus Works",
+    "url": "https://www.hyperlane.xyz"
+  },
+  "displayName": "Sepolia",
+  "domainId": 11155111,
+  "gasCurrencyCoinGeckoId": "ethereum",
+  "gnosisSafeTransactionServiceUrl": "https://api.safe.global/tx-service/sep",
+  "isTestnet": true,
+  "name": "sepolia",
+  "nativeToken": {
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH"
+  },
+  "protocol": "ethereum",
+  "rpcUrls": [
+    {
+      "http": "https://ethereum-sepolia-rpc.publicnode.com"
+    }
+  ]
+}

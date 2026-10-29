@@ -1,0 +1,22 @@
+{
+  "bsctestnet": {
+    "type": "collateral",
+    "token": "0x0000000000000000000000000000000000000000",
+    "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+    "mailbox": "0xF9F6F5646F478d5ab4e20B0F910C92F1CCC9Cc6D",
+    "interchainSecurityModule": "0x0000000000000000000000000000000000000000",
+    "name": "Gold",
+    "symbol": "GLD",
+    "decimals": 18
+  },
+  "sepolia": {
+    "type": "synthetic",
+    "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+    "mailbox": "0xfFAEF09B3cd11D9b20d1a19bECca54EEC2884766",
+    "interchainSecurityModule": "0x0000000000000000000000000000000000000000",
+    "name": "Gold",
+    "symbol": "GLD",
+    "decimals": 18,
+    "initialSupply": "0"
+  }
+}

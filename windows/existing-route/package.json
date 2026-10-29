@@ -1,0 +1,26 @@
+{
+  "name": "gld-testnet-warp-route",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node scripts/gld.mjs compile",
+    "preflight": "node --env-file-if-exists=.env scripts/gld.mjs preflight",
+    "deploy:token": "node --env-file-if-exists=.env scripts/gld.mjs deploy",
+    "test": "node --env-file-if-exists=.env scripts/gld.mjs test",
+    "hyperlane": "hyperlane",
+    "warp:deploy": "node --env-file-if-exists=.env scripts/warp.mjs deploy",
+    "warp:check": "node --env-file-if-exists=.env scripts/warp.mjs check",
+    "warp:send": "node --env-file-if-exists=.env scripts/warp.mjs send",
+    "verify": "node --env-file-if-exists=.env scripts/verify.mjs",
+    "configure": "node --env-file=.env scripts/configure.mjs",
+    "status": "node --env-file=.env scripts/status.mjs"
+  },
+  "dependencies": {
+    "@hyperlane-xyz/cli": "45.0.1",
+    "@openzeppelin/contracts": "5.6.1",
+    "ethers": "6.17.0",
+    "solc": "0.8.38",
+    "yaml": "2.9.1"
+  }
+}

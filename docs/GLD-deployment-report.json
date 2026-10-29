@@ -1,0 +1,57 @@
+{
+  "verifiedAt": "2026-10-29T09:39:58.824Z",
+  "roundTripPassed": true,
+  "transfers": [
+    {
+      "origin": "bsctestnet",
+      "destination": "sepolia",
+      "amountGLD": "1",
+      "messageId": "0x0da974d16bb9832e2b1893cd4d5a42a5231b3b592a645ba7968696aa21686d01",
+      "dispatchTx": "0xf374faaaa55d25c668d99dce2a39d7b96b255131f345af15e52a037753036e19",
+      "deliveryTx": "0x592c443312df78ea1ac9e2acf8a9b53d1b0f3951b97361e66358b961f1745d7e",
+      "delivered": true,
+      "dispatchBlock": 139590815,
+      "deliveryBlock": 12018656
+    },
+    {
+      "origin": "sepolia",
+      "destination": "bsctestnet",
+      "amountGLD": "1",
+      "messageId": "0x2865aa0359bfe4d5995e4c5a9c0399a93510a93679b113824478d898ba79f847",
+      "dispatchTx": "0x257f9d54dd7cc9d112021bc2ddf8933c4712c27a741931bfd6cb7e6d75fc2f53",
+      "deliveryTx": "0xa365b0d0f41b57f6efa4934c51aebfa4d8b8b1135e4a7212515f6b85e1866cd8",
+      "delivered": true,
+      "dispatchBlock": 12018659,
+      "deliveryBlock": 139591033
+    }
+  ],
+  "finalState": {
+    "verifiedAt": "2026-10-29T09:39:40.387Z",
+    "backingInvariantVerified": true,
+    "chains": [
+      {
+        "chain": "bsctestnet",
+        "chainId": 97,
+        "router": "0xf6285188b3EEb57738f80A4ECeF4bABD5DeDd6b6",
+        "token": "0x8A0D43b12185587e0561691664728bC3030176A9",
+        "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+        "ownerGLD": "1000000.0",
+        "totalSupplyGLD": "1000000.0",
+        "ownerNativeBalance": "0.009173961779999999",
+        "remoteRouterVerified": true,
+        "lockedGLD": "0.0"
+      },
+      {
+        "chain": "sepolia",
+        "chainId": 11155111,
+        "router": "0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8",
+        "token": "0x4E2C344358Cd11FAf2CD6454E8c9999D9a45b0E8",
+        "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+        "ownerGLD": "0.0",
+        "totalSupplyGLD": "0.0",
+        "ownerNativeBalance": "0.049670048679461574",
+        "remoteRouterVerified": true
+      }
+    ]
+  }
+}

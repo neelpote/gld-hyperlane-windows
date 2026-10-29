@@ -1,0 +1,9 @@
+{
+  "chain": "bsctestnet",
+  "chainId": 97,
+  "token": "0x8A0D43b12185587e0561691664728bC3030176A9",
+  "owner": "0x3ae38EDD6eDfD90180EC897cbF0C5BA527459C83",
+  "supply": "1000000000000000000000000",
+  "transactionHash": "0x19aa8bef7847cba27417a7c36853dc7b180266d123bab0e0b4ed1e09ba44d122",
+  "status": "verified"
+}
